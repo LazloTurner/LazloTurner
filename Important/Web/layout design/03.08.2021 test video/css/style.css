@@ -1,0 +1,35 @@
+video {
+    max-width: 100%;
+}
+
+.gear-container {
+    position: relative;
+    height: 500px;
+}
+
+.gear-top, .gear-back {
+    position: absolute;
+    animation: rotate 60s infinite linear;
+}
+
+.gear-top  {
+    width: 230px;
+    top: 9%;
+    left: 6%;
+    z-index: 1;
+    animation-direction: reverse;
+}
+
+.gear-back {
+    width: 380px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+
+}

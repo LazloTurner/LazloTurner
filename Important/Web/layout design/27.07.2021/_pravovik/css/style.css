@@ -1,0 +1,20 @@
+.intro-sect {
+    background-image: url(../img/intro.png);
+    background-size: cover;   
+    padding: 180px 0 80px;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+}
+
+.intro-top-headings h1,
+.intro-top-headings h3 {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {    
+    color: white;
+}
+

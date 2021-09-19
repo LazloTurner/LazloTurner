@@ -1,0 +1,16 @@
+table, td, th {
+    border: 1px solid grey;
+    border-collapse:collapse;
+    padding: 20px 30px 40px 50px;
+    margin: 20px 30px 40px 50px;
+}
+
+th{
+    background-color: #0000FF;
+}
+td{
+    color: #00FF00;
+}
+ol{
+    color:	#7F00FF;
+}

@@ -1,0 +1,53 @@
+:root  {
+    --red-color: #a30909;
+    --main-font: Arial, Helvetica, sans-serif;
+}
+
+
+b {
+    color: var(--red-color);
+    font-family: var(--main-font);
+}
+
+i {
+    color: blue;
+
+}
+
+b + i {
+    color: green;
+}
+b ~ i {
+    text-decoration: underline;
+}
+
+li:first-of-type {
+    color: gold;
+}
+
+li:last-child {
+    color: darkviolet;
+}
+
+li:nth-child(3) {
+    color: coral;
+}
+
+.col {
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 1px solid grey;
+}
+
+summary {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+img {
+    max-width: 100%;
+    filter:saturate(200%) blur(5px);
+}
