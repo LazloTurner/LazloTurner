@@ -1,2 +1,0 @@
-# LazloTurner
-# Vlad
